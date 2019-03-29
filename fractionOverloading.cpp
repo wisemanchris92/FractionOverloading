@@ -25,7 +25,7 @@ void Fraction::set(int n, int d){
 	denominator = d;
 }
 
-Qstring Fraction::toString() const{
+QString Fraction::toString() const{
 	return QString("%1 / %2").arg(numerator).arg(denominator);
 };
 
